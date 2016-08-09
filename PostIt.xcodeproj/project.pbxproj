@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EFF6B5FF35D29B7358874AB /* Pods_PostIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4A1C07C59F315F497F0CC3 /* Pods_PostIt.framework */; };
+		739D9048FAC0AA55C2404431 /* Pods_PostItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A92B057B1A447EE84E0E6 /* Pods_PostItTests.framework */; };
 		7F4DE6261D59BD8100379F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE6251D59BD8100379F9D /* AppDelegate.swift */; };
 		7F4DE6281D59BD8100379F9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE6271D59BD8100379F9D /* ViewController.swift */; };
 		7F4DE62B1D59BD8100379F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE6291D59BD8100379F9D /* Main.storyboard */; };
 		7F4DE62D1D59BD8100379F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE62C1D59BD8100379F9D /* Assets.xcassets */; };
 		7F4DE6301D59BD8100379F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE62E1D59BD8100379F9D /* LaunchScreen.storyboard */; };
 		7F4DE63B1D59BD8100379F9D /* PostItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE63A1D59BD8100379F9D /* PostItTests.swift */; };
+		7F4DE6461D59C5BD00379F9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE6451D59C5BD00379F9D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4A1C07C59F315F497F0CC3 /* Pods_PostIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504C04A2C0A739088F137754 /* Pods-PostIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostIt/Pods-PostIt.release.xcconfig"; sourceTree = "<group>"; };
 		7F4DE6221D59BD8100379F9D /* PostIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4DE6251D59BD8100379F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F4DE6271D59BD8100379F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		7F4DE6361D59BD8100379F9D /* PostItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4DE63A1D59BD8100379F9D /* PostItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItTests.swift; sourceTree = "<group>"; };
 		7F4DE63C1D59BD8100379F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4DE6451D59C5BD00379F9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80916DC456F0ADB0D340A104 /* Pods-PostItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostItTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostItTests/Pods-PostItTests.release.xcconfig"; sourceTree = "<group>"; };
+		8706B13891D71FDF59AD931B /* Pods-PostItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostItTests/Pods-PostItTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D40A92B057B1A447EE84E0E6 /* Pods_PostItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED306A19272628C7C65A8FF /* Pods-PostIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostIt/Pods-PostIt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFF6B5FF35D29B7358874AB /* Pods_PostIt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739D9048FAC0AA55C2404431 /* Pods_PostItTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +74,8 @@
 				7F4DE6241D59BD8100379F9D /* PostIt */,
 				7F4DE6391D59BD8100379F9D /* PostItTests */,
 				7F4DE6231D59BD8100379F9D /* Products */,
+				F729566F0842ADB2351A2976 /* Pods */,
+				85D2988C3372A7D8D1C3F94F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +91,7 @@
 		7F4DE6241D59BD8100379F9D /* PostIt */ = {
 			isa = PBXGroup;
 			children = (
+				7F4DE6451D59C5BD00379F9D /* GoogleService-Info.plist */,
 				7F4DE6251D59BD8100379F9D /* AppDelegate.swift */,
 				7F4DE6271D59BD8100379F9D /* ViewController.swift */,
 				7F4DE6291D59BD8100379F9D /* Main.storyboard */,
@@ -96,6 +111,26 @@
 			path = PostItTests;
 			sourceTree = "<group>";
 		};
+		85D2988C3372A7D8D1C3F94F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A4A1C07C59F315F497F0CC3 /* Pods_PostIt.framework */,
+				D40A92B057B1A447EE84E0E6 /* Pods_PostItTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F729566F0842ADB2351A2976 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EED306A19272628C7C65A8FF /* Pods-PostIt.debug.xcconfig */,
+				504C04A2C0A739088F137754 /* Pods-PostIt.release.xcconfig */,
+				8706B13891D71FDF59AD931B /* Pods-PostItTests.debug.xcconfig */,
+				80916DC456F0ADB0D340A104 /* Pods-PostItTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F4DE63F1D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostIt" */;
 			buildPhases = (
+				B7B0CE0FDADDBB27F4B6ACFF /* [CP] Check Pods Manifest.lock */,
 				7F4DE61E1D59BD8100379F9D /* Sources */,
 				7F4DE61F1D59BD8100379F9D /* Frameworks */,
 				7F4DE6201D59BD8100379F9D /* Resources */,
+				12B84DEA23AC0E04C6AAFDCE /* [CP] Embed Pods Frameworks */,
+				4F5B857D6900407CD88F8BEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F4DE6421D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostItTests" */;
 			buildPhases = (
+				80DD4ED6DF5AEDD82AF2DF92 /* [CP] Check Pods Manifest.lock */,
 				7F4DE6321D59BD8100379F9D /* Sources */,
 				7F4DE6331D59BD8100379F9D /* Frameworks */,
 				7F4DE6341D59BD8100379F9D /* Resources */,
+				05BE90CE5B93D44E7D6FCFA0 /* [CP] Embed Pods Frameworks */,
+				2E0F6980F942F507E3C74517 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4DE6301D59BD8100379F9D /* LaunchScreen.storyboard in Resources */,
+				7F4DE6461D59C5BD00379F9D /* GoogleService-Info.plist in Resources */,
 				7F4DE62D1D59BD8100379F9D /* Assets.xcassets in Resources */,
 				7F4DE62B1D59BD8100379F9D /* Main.storyboard in Resources */,
 			);
@@ -191,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BE90CE5B93D44E7D6FCFA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostItTests/Pods-PostItTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12B84DEA23AC0E04C6AAFDCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostIt/Pods-PostIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E0F6980F942F507E3C74517 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostItTests/Pods-PostItTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5B857D6900407CD88F8BEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostIt/Pods-PostIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80DD4ED6DF5AEDD82AF2DF92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B0CE0FDADDBB27F4B6ACFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F4DE61E1D59BD8100379F9D /* Sources */ = {
@@ -325,6 +460,7 @@
 		};
 		7F4DE6401D59BD8100379F9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED306A19272628C7C65A8FF /* Pods-PostIt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PostIt/Info.plist;
@@ -336,6 +472,7 @@
 		};
 		7F4DE6411D59BD8100379F9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504C04A2C0A739088F137754 /* Pods-PostIt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PostIt/Info.plist;
@@ -347,6 +484,7 @@
 		};
 		7F4DE6431D59BD8100379F9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8706B13891D71FDF59AD931B /* Pods-PostItTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PostItTests/Info.plist;
@@ -359,6 +497,7 @@
 		};
 		7F4DE6441D59BD8100379F9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80916DC456F0ADB0D340A104 /* Pods-PostItTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PostItTests/Info.plist;
@@ -388,6 +527,7 @@
 				7F4DE6411D59BD8100379F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F4DE6421D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostItTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +536,7 @@
 				7F4DE6441D59BD8100379F9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
