@@ -19,8 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FIRApp.configure()
-        
-a
+        /*FIRAuth.auth()?.signInWithEmail("admin@admin.pl", password: "root123", completion: { (user:FIRUser?, error: NSError?) in
+            if error == nil {
+                print(user?.email)
+            } else {
+                print(error?.description)
+            }
+        })*/
         return true
     }
 

@@ -8,6 +8,7 @@ target 'PostIt' do
   # Pods for PostIt
   pod 'Firebase'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
   target 'PostItTests' do
     inherit! :search_paths
