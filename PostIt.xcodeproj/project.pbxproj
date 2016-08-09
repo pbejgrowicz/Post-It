@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4DE6261D59BD8100379F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE6251D59BD8100379F9D /* AppDelegate.swift */; };
+		7F4DE6281D59BD8100379F9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE6271D59BD8100379F9D /* ViewController.swift */; };
+		7F4DE62B1D59BD8100379F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE6291D59BD8100379F9D /* Main.storyboard */; };
+		7F4DE62D1D59BD8100379F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE62C1D59BD8100379F9D /* Assets.xcassets */; };
+		7F4DE6301D59BD8100379F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE62E1D59BD8100379F9D /* LaunchScreen.storyboard */; };
+		7F4DE63B1D59BD8100379F9D /* PostItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE63A1D59BD8100379F9D /* PostItTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F4DE6371D59BD8100379F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F4DE61A1D59BD8100379F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4DE6211D59BD8100379F9D;
+			remoteInfo = PostIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F4DE6221D59BD8100379F9D /* PostIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4DE6251D59BD8100379F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F4DE6271D59BD8100379F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F4DE62A1D59BD8100379F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F4DE62C1D59BD8100379F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F4DE62F1D59BD8100379F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F4DE6311D59BD8100379F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F4DE6361D59BD8100379F9D /* PostItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4DE63A1D59BD8100379F9D /* PostItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItTests.swift; sourceTree = "<group>"; };
+		7F4DE63C1D59BD8100379F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F4DE61F1D59BD8100379F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4DE6331D59BD8100379F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F4DE6191D59BD8100379F9D = {
+			isa = PBXGroup;
+			children = (
+				7F4DE6241D59BD8100379F9D /* PostIt */,
+				7F4DE6391D59BD8100379F9D /* PostItTests */,
+				7F4DE6231D59BD8100379F9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F4DE6231D59BD8100379F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F4DE6221D59BD8100379F9D /* PostIt.app */,
+				7F4DE6361D59BD8100379F9D /* PostItTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F4DE6241D59BD8100379F9D /* PostIt */ = {
+			isa = PBXGroup;
+			children = (
+				7F4DE6251D59BD8100379F9D /* AppDelegate.swift */,
+				7F4DE6271D59BD8100379F9D /* ViewController.swift */,
+				7F4DE6291D59BD8100379F9D /* Main.storyboard */,
+				7F4DE62C1D59BD8100379F9D /* Assets.xcassets */,
+				7F4DE62E1D59BD8100379F9D /* LaunchScreen.storyboard */,
+				7F4DE6311D59BD8100379F9D /* Info.plist */,
+			);
+			path = PostIt;
+			sourceTree = "<group>";
+		};
+		7F4DE6391D59BD8100379F9D /* PostItTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F4DE63A1D59BD8100379F9D /* PostItTests.swift */,
+				7F4DE63C1D59BD8100379F9D /* Info.plist */,
+			);
+			path = PostItTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F4DE6211D59BD8100379F9D /* PostIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4DE63F1D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostIt" */;
+			buildPhases = (
+				7F4DE61E1D59BD8100379F9D /* Sources */,
+				7F4DE61F1D59BD8100379F9D /* Frameworks */,
+				7F4DE6201D59BD8100379F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostIt;
+			productName = PostIt;
+			productReference = 7F4DE6221D59BD8100379F9D /* PostIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F4DE6351D59BD8100379F9D /* PostItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F4DE6421D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostItTests" */;
+			buildPhases = (
+				7F4DE6321D59BD8100379F9D /* Sources */,
+				7F4DE6331D59BD8100379F9D /* Frameworks */,
+				7F4DE6341D59BD8100379F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F4DE6381D59BD8100379F9D /* PBXTargetDependency */,
+			);
+			name = PostItTests;
+			productName = PostItTests;
+			productReference = 7F4DE6361D59BD8100379F9D /* PostItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F4DE61A1D59BD8100379F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Patryk Bejgrowicz";
+				TargetAttributes = {
+					7F4DE6211D59BD8100379F9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7F4DE6351D59BD8100379F9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7F4DE6211D59BD8100379F9D;
+					};
+				};
+			};
+			buildConfigurationList = 7F4DE61D1D59BD8100379F9D /* Build configuration list for PBXProject "PostIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F4DE6191D59BD8100379F9D;
+			productRefGroup = 7F4DE6231D59BD8100379F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F4DE6211D59BD8100379F9D /* PostIt */,
+				7F4DE6351D59BD8100379F9D /* PostItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F4DE6201D59BD8100379F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4DE6301D59BD8100379F9D /* LaunchScreen.storyboard in Resources */,
+				7F4DE62D1D59BD8100379F9D /* Assets.xcassets in Resources */,
+				7F4DE62B1D59BD8100379F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4DE6341D59BD8100379F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F4DE61E1D59BD8100379F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4DE6281D59BD8100379F9D /* ViewController.swift in Sources */,
+				7F4DE6261D59BD8100379F9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F4DE6321D59BD8100379F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4DE63B1D59BD8100379F9D /* PostItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F4DE6381D59BD8100379F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F4DE6211D59BD8100379F9D /* PostIt */;
+			targetProxy = 7F4DE6371D59BD8100379F9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F4DE6291D59BD8100379F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4DE62A1D59BD8100379F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F4DE62E1D59BD8100379F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F4DE62F1D59BD8100379F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F4DE63D1D59BD8100379F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F4DE63E1D59BD8100379F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F4DE6401D59BD8100379F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.speednet.PostIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F4DE6411D59BD8100379F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PostIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.speednet.PostIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F4DE6431D59BD8100379F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PostItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.speednet.PostItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostIt.app/PostIt";
+			};
+			name = Debug;
+		};
+		7F4DE6441D59BD8100379F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PostItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.speednet.PostItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostIt.app/PostIt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F4DE61D1D59BD8100379F9D /* Build configuration list for PBXProject "PostIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4DE63D1D59BD8100379F9D /* Debug */,
+				7F4DE63E1D59BD8100379F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F4DE63F1D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4DE6401D59BD8100379F9D /* Debug */,
+				7F4DE6411D59BD8100379F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F4DE6421D59BD8100379F9D /* Build configuration list for PBXNativeTarget "PostItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F4DE6431D59BD8100379F9D /* Debug */,
+				7F4DE6441D59BD8100379F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F4DE61A1D59BD8100379F9D /* Project object */;
+}
