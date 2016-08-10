@@ -32,10 +32,18 @@ class LoginViewController: UIViewController {
                     print(error?.description)
                 } else {
                     print("Ok!")
-                    self.performSegueWithIdentifier("loginProcess", sender: self)
+                    self.performSegueWithIdentifier("showHomeFromLogin", sender: self)
                 }
             })
     }
+    
+    @IBAction func signupPressed(sender: AnyObject) {
+        self.performSegueWithIdentifier("showSignupView", sender: self)
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

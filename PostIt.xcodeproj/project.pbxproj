@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1EFF6B5FF35D29B7358874AB /* Pods_PostIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4A1C07C59F315F497F0CC3 /* Pods_PostIt.framework */; };
 		739D9048FAC0AA55C2404431 /* Pods_PostItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40A92B057B1A447EE84E0E6 /* Pods_PostItTests.framework */; };
+		7F4C840D1D5B0B6400DD9345 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4C840C1D5B0B6400DD9345 /* SignupViewController.swift */; };
 		7F4DE6261D59BD8100379F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DE6251D59BD8100379F9D /* AppDelegate.swift */; };
 		7F4DE62B1D59BD8100379F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE6291D59BD8100379F9D /* Main.storyboard */; };
 		7F4DE62D1D59BD8100379F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4DE62C1D59BD8100379F9D /* Assets.xcassets */; };
@@ -19,7 +20,6 @@
 		7F64D3A21D59D16B00F407EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64D3A11D59D16B00F407EE /* User.swift */; };
 		7F64D3A41D59D2AB00F407EE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64D3A31D59D2AB00F407EE /* Post.swift */; };
 		7F64D3AD1D5A0E5000F407EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F64D3AC1D5A0E5000F407EE /* LoginViewController.swift */; };
-		7F64D3AF1D5A136B00F407EE /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F64D3AE1D5A136B00F407EE /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* Begin PBXFileReference section */
 		1A4A1C07C59F315F497F0CC3 /* Pods_PostIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		504C04A2C0A739088F137754 /* Pods-PostIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostIt/Pods-PostIt.release.xcconfig"; sourceTree = "<group>"; };
+		7F4C840C1D5B0B6400DD9345 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7F4DE6221D59BD8100379F9D /* PostIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F4DE6251D59BD8100379F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F4DE62A1D59BD8100379F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		7F64D3A11D59D16B00F407EE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7F64D3A31D59D2AB00F407EE /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		7F64D3AC1D5A0E5000F407EE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
-		7F64D3AE1D5A136B00F407EE /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
 		80916DC456F0ADB0D340A104 /* Pods-PostItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostItTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostItTests/Pods-PostItTests.release.xcconfig"; sourceTree = "<group>"; };
 		8706B13891D71FDF59AD931B /* Pods-PostItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostItTests/Pods-PostItTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D40A92B057B1A447EE84E0E6 /* Pods_PostItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +131,7 @@
 			children = (
 				7F64D3AC1D5A0E5000F407EE /* LoginViewController.swift */,
 				7F64D39F1D59D08700F407EE /* HomeTableViewController.swift */,
+				7F4C840C1D5B0B6400DD9345 /* SignupViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -147,7 +148,6 @@
 		7F64D3A91D59ED4200F407EE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7F64D3AE1D5A136B00F407EE /* background.jpg */,
 				7F4DE6451D59C5BD00379F9D /* GoogleService-Info.plist */,
 				7F4DE62C1D59BD8100379F9D /* Assets.xcassets */,
 				7F4DE6311D59BD8100379F9D /* Info.plist */,
@@ -263,7 +263,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F4DE6301D59BD8100379F9D /* LaunchScreen.storyboard in Resources */,
-				7F64D3AF1D5A136B00F407EE /* background.jpg in Resources */,
 				7F4DE6461D59C5BD00379F9D /* GoogleService-Info.plist in Resources */,
 				7F4DE62D1D59BD8100379F9D /* Assets.xcassets in Resources */,
 				7F4DE62B1D59BD8100379F9D /* Main.storyboard in Resources */,
@@ -377,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F4C840D1D5B0B6400DD9345 /* SignupViewController.swift in Sources */,
 				7F64D3A01D59D08700F407EE /* HomeTableViewController.swift in Sources */,
 				7F4DE6261D59BD8100379F9D /* AppDelegate.swift in Sources */,
 				7F64D3A21D59D16B00F407EE /* User.swift in Sources */,
